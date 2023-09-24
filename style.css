@@ -16,34 +16,39 @@
     --color-base-white:#fff;
 }
 
-#astronauta {
-    width: 36.4rem;
-    height: 37rem;
-    margin: 0 3.4rem 1.7rem 3.4rem;
-}
-
 header {
     text-align: center;
     align-items: center;
     margin: 0 6.6rem 0px 5.3rem;
 }
 
-header > h1 {
+h1 p {
+    text-align: left;
+}
+h1 {
     font-size: 3.6rem;
     font-weight: 900;
     color: var(--color-base-pink);
 }
-header > p {
+
+p {
     font-size: 2.0rem;
     font-weight: 600;
     color: var(--color-base-blue);
 }
 
+#astronauta {
+    width: 36.4rem;
+    height: 37rem;
+    margin: 0 3.4rem 1.7rem 3.4rem;
+}
+
+
 #logo {
-    
-    margin: 3.5rem 18.6rem 6.8rem 18.6rem;
-    
-    
+       
+    margin: 35px 150px 93px;
+    width: 58.587px;
+    height: 105px;    
 }
 
 main {
@@ -54,18 +59,27 @@ main {
 }
 
 #planets {
-    margin: 53px 92px;
-   
-    
+    margin: 5.3rem 9.2rem;
+    width: 35.2rem;
+    height: 35.8rem;
     display: flex;
-    padding: 53px 4px;
+    padding: 2.3rem 4rem;
     flex-direction: column;
     align-items: flex-start;
-    gap: 33px;
+    
+    
     align-self: stretch;
-
-
-    border-radius: 20px;
+    border-radius: 2rem;
     background: #FFF;
     box-shadow: 0px 3.31077px 13.24308px 0px rgba(0, 0, 0, 0.25);
+}
+
+#planets > h1 {
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
+#planets > p {
+    font-size: 1.6rem;
+    margin-top: 10px;
 }
