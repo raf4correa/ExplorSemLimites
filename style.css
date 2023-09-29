@@ -15,11 +15,16 @@
     --color-base-blue:#312D64;
     --color-base-white:#fff;
 }
+/*body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}*/
 
 header {
     text-align: center;
     align-items: center;
-    margin: 0 6.6rem 0px 5.3rem;
+    margin: 0 6.6rem 0 5.3rem;
 }
 
 h1 p {
@@ -52,8 +57,8 @@ p {
 }
 
 main {
-    margin: 654px 4px 668x 4px;
-    padding: 2px;
+    
+    padding: .2rem;
     display: block;
     background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
 }
@@ -76,10 +81,10 @@ main {
 
 #planets > h1 {
     font-size: 3rem;
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 
 #planets > p {
     font-size: 1.6rem;
-    margin-top: 10px;
+    margin-top: 1rem;
 }
